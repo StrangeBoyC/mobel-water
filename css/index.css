@@ -1,0 +1,97 @@
+@import "base.css";
+
+header{
+    height: 0.68rem;
+    text-align: center;
+    line-height: 0.68rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    background-color: #fbfeff;
+    letter-spacing: 0.02rem;
+}
+.search{
+    padding:0.17rem 0.22rem;
+    height:0.6rem;
+    line-height: 0.6rem;
+    background-color: #fbfeff;
+    box-shadow: 0 0.25rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+.search > span{
+    float:left;
+    color: #4ebbfe;
+    font-size: 0.28rem;
+}
+.search > a{
+    float:right;
+    width:5.93rem;
+    height:0.6rem;
+    border: solid 0.03rem rgba(55, 169, 254, 0.17);
+    border-radius: 0.3rem;
+    background: #ebf7ff;
+    opacity: .5;
+}
+.banner{
+    width: 100%;
+    height: 3rem;
+}
+
+.category{
+    height: 6.9rem;
+    padding: 0.22rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.category li{
+    height: 1.94rem;
+    width: 2.35rem;
+}
+.category li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.category li a img{
+    width: 1.13rem;
+    height: 1.13rem;
+}
+.category li a span{
+    color: #8e9397;
+    font-size: 0.28rem;
+}
+
+footer{
+    padding: 0.1rem 0.22rem;
+    height: 0.98rem;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer a{
+    height: 0.78rem;
+    width: 0.6rem;
+    text-align: center;
+    color: #4ebbfe;
+    font-size: 0.24rem;
+    opacity: 0.5;
+    box-sizing: border-box;
+
+}
+footer a img{
+    width: 0.45rem;
+    height: 0.45rem;
+    display: inline-block;
+}
+footer .hot{
+    opacity: 1;
+}

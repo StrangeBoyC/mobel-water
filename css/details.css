@@ -1,0 +1,508 @@
+@import "base.css";
+.header{
+    width: 100%;
+    height: 0.88rem;
+    box-sizing: border-box;
+    padding: 0 0.22rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 0.88rem;
+    background: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+.header   a{
+    width: 0.25rem;
+    height: 0.42rem;
+}
+.header a.iconfont{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    font-weight: bold;
+}
+.header header{
+    height: 0.88rem;
+    text-align: center;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    font-weight: bold;
+    letter-spacing: 0.02rem;
+}
+
+.details{
+    margin-top: 0.88rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0.22rem 1.08rem;
+}
+.details >li{
+    border-bottom: 0.01rem solid rgba(216,223,217,0.3);
+    padding: 0.2rem 0;
+}
+.details .recommend{
+    width: 100%;
+    position: relative;
+}
+.details .recommend .image{
+    width: 100%;
+    height: 6.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details .recommend .image img{
+    width: 3.00rem;
+    height: 3.62rem;
+}
+.details .recommend h2{
+    width: 100%;
+    padding: 0.1rem 0;
+    font-size: 0.3rem;
+    height: 0.3rem;
+    font-weight: normal;
+    letter-spacing: 0.012rem;
+    color: #000000;
+    opacity: 0.6;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.details .recommend p{
+    width: 100%;
+    height: 0.66rem;
+    padding: 0.1rem 0;
+    font-size: 0.22rem;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 0.009rem;
+    color: #000000;
+    opacity: 0.3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+ .details .recommend .info{
+     width: 100%;
+     height: 0.5rem;
+     padding: 0.1rem 0 0;
+     overflow: hidden;
+ }
+.details .recommend .info span{
+    font-size: 0.26rem;
+    font-weight: normal;
+    color: #fbb548;
+    display: inline-block;
+    margin-right: 0.3rem;
+}
+.details .recommend .info .dj{
+    font-size: 0.2rem;
+    color: #41b2fc;
+    padding: 0.1rem 0.16rem;
+    display: inline-block;
+    background: rgba(59,171,255,0.1);
+    border-radius: 0.18rem;
+}
+.details .recommend .info .fw{
+    font-size: 0.2rem;
+    color: #36d681;
+    padding: 0.1rem 0.16rem;
+    display: inline-block;
+    background: rgba(54,214,129,0.1);
+    border-radius: 0.18rem;
+}
+.details .recommend .info .yj{
+    display: inline-block;
+    /*width: 0.22rem;*/
+    position: relative;
+    float: right;
+}
+.details .recommend .info .yj span{
+    display: inline-block;
+    padding-left: 0.1rem;
+    font-size: 0.22rem;
+    letter-spacing: 0.008rem;
+    color: rgba(0,0,0,0.3);
+    margin-right: 0;
+}
+.details .recommend .info .yj span::before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(54, 214, 129, 0.43);
+    border-radius: 0.025rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0;
+}
+.details .recommend .info .yj b{
+    font-size: 0.24rem;
+    color: #36a8fe;
+}
+.coupon{
+    padding: 0.2rem 0;
+    width: 100%;
+}
+.coupon a{
+    height: 0.4rem;
+    display: flex;
+    align-items: center;
+}
+.coupon a img{
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.5rem;
+    margin-top: 0.1rem;
+}
+.coupon a b{
+    display: inline-block;
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.014rem;
+    color: #ff844e;
+    margin-right: 0.15rem;
+}
+.coupon a strong{
+    display: inline-block;
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.014rem;
+    color: #fbfeff;
+    width: 1.84rem;
+    height: 0.4rem;
+    background-image: linear-gradient(270deg, #ffca3b 0%, #ff933b 100%), linear-gradient(#ffc471, #ffc471);
+    box-shadow: 0 0.04rem 0.16rem 0 rgba(255, 142, 81, 0.3);
+    border-radius: 0.195rem;
+    text-align: center;
+}
+.service{
+    padding: 0.2rem 0;
+    width: 100%;
+}
+.service span{
+    display: inline-block;
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.014rem;
+    color: #41b2fc;
+    margin-right: 0.6rem;
+    padding-left: 0.15rem;
+    position: relative;
+}
+.service span::before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(54, 214, 129, 0.43);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top:0.2rem;
+}
+
+.appraise {
+    padding: 0.2rem 0;
+    width: 100%;
+}
+.appraise div{
+    line-height: 0.4rem;
+    width: 100%;
+    overflow: hidden;
+}
+.appraise div h2{
+    display: inline-block;
+    font-size: 0.32rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.019rem;
+    color: #41b2fc;
+    position: relative;
+    padding-left: 0.2rem;
+}
+.appraise div h2::before{
+    content: "";
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 0.025rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0;
+}
+.appraise div h3{
+    display: inline-block;
+    font-size: 0.32rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.019rem;
+    color: #4f5b64;
+}
+.appraise div a{
+    display: inline-block;
+    float: right;
+    vertical-align: center;
+}
+.appraise div a span{
+    display: inline-block;
+    font-size: 0.22rem;
+    color: #3bacfe;
+    line-height: 0.4rem;
+}
+.appraise div a .iconfont{
+    display: inline-block;
+    font-size: 0.3rem;
+    color: #36a8fe;
+}
+
+.appraise .first{
+    padding: 0.2rem 0;
+    width: 100%;
+    display: flex;
+    border-bottom: 0.01rem solid rgba(216,223,217,0.3);
+}
+.appraise .first .head-image{
+    width: 0.85rem;
+    height: 0.85rem;
+    box-shadow:  0.01rem 0.21rem 0 rgba(223, 223, 223, 0.43);
+    border: solid 0.04rem #fefefe;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.appraise .first .head-image img{
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+}
+.appraise .first .info{
+    flex: 1;
+    padding-left: 0.3rem;
+}
+.appraise .first .info p{
+    overflow: hidden;
+    margin: 0.2rem 0;
+}
+.appraise .first .info p b{
+    font-size: 0.2rem;
+    letter-spacing: 0.008rem;
+    color: #cfcfcf;
+    margin-right: 0.2rem;
+}
+.appraise .first .info p .iconfont{
+    font-size: 0.2rem;
+    color: #e6e6e6;
+}
+.appraise .first .info p .iconfont.hot{
+    color: #36a8fe;
+}
+.appraise .first .info p .time{
+    font-size: 0.22rem;
+    letter-spacing: 0;
+    color: #9ed5ff;
+    float: right;
+}
+.appraise .first .info strong{
+    font-size: 0.26rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+    display: block;
+    margin: 0.2rem 0;
+}
+.appraise .first .info .address{
+    width: 100%;
+    margin: 0.2rem 0;
+}
+.appraise .first .info .address span{
+    font-size: 0.22rem;
+    letter-spacing: 0.009rem;
+    color: #000000;
+    opacity: 0.3;
+    margin-right: 0.2rem;
+}
+.appraise .first .info .goods{
+    width: 1.8rem;
+    height: 1.28rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.appraise .first .info .goods img{
+    width: 1.8rem;
+    height: 1.01rem;
+}
+.appraise .second{
+    border-bottom: none;
+}
+
+.goods-details div{
+    line-height: 0.4rem;
+    width: 100%;
+    overflow: hidden;
+}
+.goods-details div h2{
+    display: inline-block;
+    font-size: 0.32rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.019rem;
+    color: #35db82;
+    position: relative;
+    padding-left: 0.2rem;
+}
+.goods-details div h2::before{
+    content: "";
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #35db82;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(53, 219, 130, 0.43);
+    border-radius: 0.025rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0;
+}
+.goods-details div h3{
+    display: inline-block;
+    font-size: 0.32rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.019rem;
+    color: #4f5b64;
+}
+.goods-details .image{
+    padding: 0.2rem 0;
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.goods-details .image img{
+    width: 1.8rem;
+    height: 1.01rem;
+}
+
+.similar div{
+    line-height: 0.4rem;
+    width: 100%;
+    overflow: hidden;
+}
+.similar div h2{
+    display: inline-block;
+    font-size: 0.32rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.019rem;
+    color: #35db82;
+    position: relative;
+    padding-left: 0.2rem;
+}
+.similar div h2::before{
+    content: "";
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #35db82;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(53, 219, 130, 0.43);
+    border-radius: 0.025rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0;
+}
+.similar div h3{
+    display: inline-block;
+    font-size: 0.32rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.019rem;
+    color: #4f5b64;
+}
+.similar >ul{
+    width: 100%;
+    padding: 0.2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.similar >ul >li{
+    width: 1.90rem;
+}
+.similar >ul >li a{
+    display: inline-block;
+    width: 100%;
+}
+.similar >ul >li .image{
+    width: 1.90rem;
+    height: 1.90rem;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.similar >ul >li .image img{
+    width: 1.31rem;
+    height: 1.37rem;
+}
+.similar >ul >li p{
+    font-size: 0.26rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+    padding: 0.1rem 0;
+}
+.similar >ul >li b{
+    font-size: 0.28rem;
+    color: #fbb548;
+    padding: 0.1rem 0;
+}
+
+footer{
+    padding: 0.1rem 0.22rem;
+    height: 1.08rem;
+    width: 100%;
+    background: #f1faff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer a{
+    display: inline-block;
+}
+footer a img.dp {
+    width: 0.54rem;
+    height: 0.84rem;
+    display: inline-block;
+    padding-left: 0.2rem;
+}
+footer a img.lxsj {
+    width: 0.92rem;
+    height: 0.84rem;
+    display: inline-block;
+}
+footer a span.add{
+    display: inline-block;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    padding: 0.18rem 0.36rem;
+    margin-left: 0.4rem;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+}
+footer a span.order{
+    display: inline-block;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    padding: 0.18rem 0.5rem;
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0 rgba(59, 172, 254, 0.43);
+    border-radius: 0.3rem;
+}
