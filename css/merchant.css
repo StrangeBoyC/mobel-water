@@ -39,7 +39,6 @@
     height: 0.6rem;
     width: 100%;
     padding: 0 0.22rem;
-    overflow: hidden;
     box-sizing: border-box;
     background: #fbfeff;
 }
@@ -51,15 +50,13 @@
     background: #ebf7ff;
     opacity: 0.58;
     border-radius: 0.3rem;
-    display: block;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border: 0.03rem solid rgba(72, 139, 255, 0.58);
 }
 .search span{
-    width: 2.47rem;
-    height: 0.23rem;
     font-size: 0.24rem;
-    line-height: 0.54rem;
     letter-spacing: 0.01rem;
     color: #c8d9e6;
 }
@@ -67,13 +64,10 @@
     width: 0.79rem;
     height: 0.44rem;
     background-color: #a4e0bd;
-    margin-top: 0.02rem;
     border-radius: 0.21rem;
     display: inline-block;
     color: #e5f6ec;
-    float: right;
     text-align: center;
-    line-height: 0.4rem;
     font-size: 0.4rem;
 }
 
