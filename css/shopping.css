@@ -92,7 +92,7 @@
     left: 0;
 }
 .have ul li.hot::before{
-    content: "√";
+    content: "✔";
     width: 0.24rem;
     height: 0.24rem;
     background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#e7f6ff, #e7f6ff);
