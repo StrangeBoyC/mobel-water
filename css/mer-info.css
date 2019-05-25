@@ -1,0 +1,180 @@
+@import "base.css";
+.header{
+    width: 100%;
+    height: 0.88rem;
+    box-sizing: border-box;
+    padding: 0 0.22rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 0.88rem;
+    background: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+.header   a{
+    width: 0.25rem;
+    height: 0.42rem;
+}
+.header a.iconfont{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    font-weight: bold;
+}
+.header header{
+    height: 0.88rem;
+    text-align: center;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    font-weight: bold;
+    letter-spacing: 0.02rem;
+}
+
+
+.details{
+    margin-top: 0.88rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0.22rem;
+}
+.details >li{
+    border-bottom: 0.01rem solid rgba(216,223,217,0.3);
+    padding: 0.2rem 0;
+
+}
+.details >li >div{
+    width: 100%;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+    height: 0.4rem;
+    position: relative;
+}
+.details >li >div h2{
+    font-size: 0.32rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.019rem;
+    color: #4f5b64;
+    display: inline-block;
+}
+.details >li >div h3{
+    font-size: 0.32rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.019rem;
+    color: #34da87;
+    display: inline-block;
+}
+.details >li >div::before{
+    content: "";
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #34da87;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(52, 218, 135, 0.43);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+}
+.details .recommend h3{
+    color: #44b5ff;
+}
+.details .recommend div::before{
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+}
+.details .recommend p{
+    padding: 0.2rem;
+    font-size: 0.22rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    letter-spacing: 0.009rem;
+    color: #000000;
+    opacity: 0.3;
+}
+
+.details .display{
+    width: 100%;
+    position: relative;
+}
+.details .display .image{
+    margin: 0.3rem 0;
+    width: 100%;
+    height: 3.94rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details .display .image img{
+    width: 6.84rem;
+    height: 3.94rem;
+}
+.display .info >div{
+    overflow: hidden;
+}
+.details .info >div >a{
+    width: 1.24rem;
+    height: 0.45rem;
+    display: inline-block;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0rem 0.01rem 0.1rem 0rem
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.225rem;
+    font-size: 0.2rem;
+    letter-spacing: 0.008rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.45rem;
+    float: right;
+}
+.details .info p{
+    width: 100%;
+    padding:0.2rem;
+    box-sizing: border-box;
+    font-size: 0.26rem;
+    font-weight: bold;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
+    display: flex;
+    align-items: center;
+}
+.details .info p .image{
+    margin-right: 0.2rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.details .info p .image .name{
+    margin-top: 0.06rem;
+    width: 0.32rem;
+    height: 0.34rem;
+}
+.details .info p .image .add{
+    margin-top: 0.06rem;
+    width: 0.36rem;
+    height: 0.4rem;
+}
+.details .info p .image .per{
+    margin-top: 0.06rem;
+    width: 0.4rem;
+    height: 0.3rem;
+}
+
+.permit .per-img{
+    width: 6.79rem;
+    height: 3.89rem;
+    margin: 0.2rem auto;
+    background-color: #e5e9ec;
+    border-radius: 0.1rem;
+}
