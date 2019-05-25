@@ -86,6 +86,8 @@ header{
 .category li a img{
     width: 1.13rem;
     height: 1.13rem;
+    border-radius: 50%;
+    box-shadow: 0.05rem 0.15rem 0.2rem 0 rgba(41, 167, 255, 0.2);
 }
 .category li a span{
     color: #8e9397;
@@ -100,6 +102,7 @@ footer{
     -webkit-box-sizing: border-box;
     justify-content: space-between;
     display: flex;
+    background: #f1f9ff;
     position: fixed;
     left: 0;
     bottom: 0;
