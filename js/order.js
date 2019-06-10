@@ -10,7 +10,7 @@ window.addEventListener("load",function () {
             id:1, herf:'service-info.html',src:'./image/shuilongtou.png',name:'高端水龙头',type:'ECC01-001Lw',info:'商品规格潜水艇高端龙头',price:'60',number:'1',statusInfo:'待收货',blue:'去退款',green:'确认收货',blueHerf:'apply-drawback.html',greenHerf:'',status:'receive'
         },
         {
-            id:2, herf:'service-info.html',src:'./image/shuilongtou.png',name:'高端水龙头',type:'ECC01-001Lw',info:'商品规格潜水艇高端龙头',price:'60',number:'1',statusInfo:'待付款',blue:'取消订单',green:'立即支付',blueHerf:'',greenHerf:'',status:'pay'
+            id:2, herf:'service-info.html',src:'./image/shuilongtou.png',name:'高端水龙头',type:'ECC01-001Lw',info:'商品规格潜水艇高端龙头',price:'60',number:'1',statusInfo:'待付款',blue:'取消订单',green:'立即支付',blueHerf:'order-del.html',greenHerf:'',status:'pay'
         },
         {
             id:3, herf:'service-info.html',src:'./image/shuilongtou.png',name:'维修服务',info:'服务日期：',time:'2019.06.01&nbsp;14:00',price:'60',number:'1',statusInfo:'待服务',explain:'剩余款项由维修人员上门视具体情况报价',blue:'取消预约',green:'支付剩余服务费',blueHerf:'apply-drawback.html',greenHerf:'',status:'service'
@@ -19,7 +19,7 @@ window.addEventListener("load",function () {
             id:4, herf:'service-info.html',src:'./image/shuilongtou.png',name:'高端水龙头',type:'ECC01-001Lw',info:'商品规格潜水艇高端龙头',price:'60',number:'1',statusInfo:'待评价',blue:'去退款',green:'立即评价',blueHerf:'apply-drawback.html',greenHerf:'appraise.html',status:'appraise'
         },
         {
-            id:5, herf:'service-info.html',src:'./image/shuilongtou.png',name:'高端水龙头',type:'ECC01-001Lw',info:'商品规格潜水艇高端龙头',price:'60',number:'1',statusInfo:'售后服务',blue:'联系客服',green:'查看详情',blueHerf:'',greenHerf:'service-info.html',status:'after'
+            id:5, herf:'service-info.html',src:'./image/shuilongtou.png',name:'高端水龙头',type:'ECC01-001Lw',info:'商品规格潜水艇高端龙头',price:'60',number:'1',statusInfo:'售后服务',blue:'联系客服',green:'查看详情',blueHerf:'',greenHerf:'drawBack-info.html',status:'after'
         },
 
     ]
