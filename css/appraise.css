@@ -1,0 +1,184 @@
+@import "base.css";
+.header{
+    width: 100%;
+    height: 0.88rem;
+    box-sizing: border-box;
+    padding: 0 0.22rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 0.88rem;
+    background: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+.header   a{
+    width: 0.25rem;
+    height: 0.42rem;
+}
+.header a.iconfont{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    font-weight: bold;
+}
+.header header{
+    height: 0.88rem;
+    text-align: center;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    font-weight: bold;
+    letter-spacing: 0.02rem;
+}
+
+.appraise{
+    margin-top: 0.88rem;
+    padding: 0.26rem 0.24rem;
+}
+.appraise li{
+    padding: 0.1rem 0;
+    width: 100%;
+}
+
+.appraise .describe{
+    overflow: hidden;
+}
+.appraise .describe div{
+    display: inline-block;
+}
+.appraise .describe i{
+    float: left;
+    font-style: normal;
+    padding-left: 0.2rem;
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #3bacfe;
+    position: relative;
+}
+.appraise .describe i::before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.appraise .describe span{
+    font-size: 0.4rem;
+    line-height: 0.4rem;
+    color: #e6e6e6;
+}
+.appraise .describe span.hot{
+    color: #36a8fe;
+}
+.appraise .describe b{
+    float: right;
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #fbb548;
+}
+
+
+.appraise li textarea{
+    box-sizing: border-box;
+    padding: 0.2rem;
+    width: 100%;
+    resize: none;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    border: none;
+    font-size: 0.22rem;
+    line-height: 1.5;
+    letter-spacing: 0.01rem;
+    color: #333333;
+    outline: none;
+}
+
+.appraise li .image{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(223, 223, 223, 0.75);
+    border-radius: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appraise li .image img{
+    width: 0.49rem;
+    height: 0.35rem;
+}
+.appraise li.add p{
+    margin-top: 0.1rem;
+    padding-left: 0.14rem;
+    height: 0.34rem;
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.34rem;
+    letter-spacing: 0.009rem;
+    color: #000000;
+    opacity: 0.3;
+}
+.appraise .anon{
+    height: 0.34rem;
+    overflow: hidden;
+}
+.appraise .anon i{
+    margin-top: 0.04rem;
+    float: left;
+    display: inline-block;
+    width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    border: 0.02rem solid #36a8fe;
+}
+.appraise .anon span{
+    float: left;
+    margin-left: 0.2rem;
+    font-size: 0.22rem;
+    line-height: 0.34rem;
+    letter-spacing: 0.01rem;
+    color: #8a8c8d;
+}
+.appraise .anon b{
+    font-size: 0.22rem;
+    line-height: 0.34rem;
+    letter-spacing: 0.01rem;
+    color: #8a8c8d;
+    float: right;
+}
+
+.appraise .describe p{
+    float: left;
+    display: inline-block;
+    padding-left: 0.2rem;
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #8a8c8d;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.submit input[type=button]{
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    padding: 0.18rem 1.66rem;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    margin: 1rem auto;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,350 @@
+@import "base.css";
+.header{
+    width: 100%;
+    height: 0.88rem;
+    box-sizing: border-box;
+    padding: 0 0.22rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 0.88rem;
+    background: #fbfeff;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+.header   a{
+    width: 0.25rem;
+    height: 0.42rem;
+}
+.header a.iconfont{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    font-weight: bold;
+}
+.header header{
+    height: 0.88rem;
+    text-align: center;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    font-weight: bold;
+    letter-spacing: 0.02rem;
+}
+
+
+.goods{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.22rem;
+    box-sizing: border-box;
+}
+.goods >a{
+    width: 100%;
+    display: flex;
+    margin-bottom: 0.1rem;
+}
+.goods a .image{
+    width: 1.74rem;
+    height: 1.74rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.21rem 0 rgba(223, 223, 223, 0.43);
+    border-radius: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goods a .image img{
+    width: 1.19rem;
+    height: 1.25rem;
+}
+.goods a .info{
+    flex-grow: 1;
+    padding-left: 0.27rem;
+    box-sizing: border-box;
+}
+.goods a .info h2{
+    height: 0.3rem;
+    line-height: 0.3rem;
+    font-size: 0.3rem;
+    letter-spacing: 0.012rem;
+    color: #000000;
+    opacity: 0.6;
+    overflow: hidden;
+    margin-bottom: 0.1rem;
+}
+.goods a .info h2 >span{
+    font-size: 0.26rem;
+    color: #43c93e;
+    float: right;
+}
+.goods a .info >b{
+    display: block;
+    height: 0.3rem;
+    padding-left: 0.2rem;
+    font-size: 0.26rem;
+    color: #36a8fe;
+    position: relative;
+    margin-bottom: 0.1rem;
+}
+.goods a .info >b::before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.12rem;
+}
+.goods a .info >span{
+    display: block;
+    height: 0.3rem;
+    font-size: 0.22rem;
+    letter-spacing: 0.009rem;
+    color: rgba(0,0,0,0.3);
+    padding-left: 0.2rem;
+    position: relative;
+    margin-bottom: 0.1rem;
+}
+.goods a .info >span b{
+    height: 0.3rem;
+    line-height: 0.3rem;
+    font-size: 0.26rem;
+    letter-spacing: 0;
+    color: #36a8fe;
+}
+
+.goods a .info >span::before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.12rem;
+}
+.goods .info p{
+    margin-top: 0.4rem;
+    width: 100%;
+    height: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.goods .info p >span{
+    display: inline-block;
+    padding-left: 0.2rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+    letter-spacing: 0.009rem;
+    color: rgba(0,0,0,0.3);
+    position: relative;
+    margin-bottom: 0.1rem;
+}
+.goods .info p >span::before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.12rem;
+}
+.goods .info p i{
+    font-style: normal;
+    display: inline-block;
+    line-height: 0.3rem;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #8a8c8d;
+    padding-left: 0.2rem;
+    position: relative;
+}
+.goods .info p i::before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(54, 214, 129, 0.43);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.12rem;
+}
+
+.goods >span{
+    display: block;
+    height: 0.24rem;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #fbb548;
+    padding-left: 0.2rem;
+    float: right;
+    position: relative;
+    margin-bottom: 0.2rem;
+}
+.goods >span::before{
+    content: "";
+    width: 0.05rem;
+    height: 0.05rem;
+    background-color: #36d681;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(54, 214, 129, 0.43);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.12rem;
+}
+
+
+.apply{
+    padding: 0.22rem;
+}
+.apply li{
+    border-top: 0.01rem solid rgba(0,0,0,0.1);
+    padding: 0.2rem 0;
+    overflow: hidden;
+}
+.apply li h3{
+    float: left;
+    display: inline-block;
+    padding-left: 0.2rem;
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.016rem;
+    color: #41b2fc;
+    position: relative;
+}
+.apply li h3::before{
+    content: "";
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(68, 181, 255, 0.43);
+    border-radius: 0.02rem;
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+}
+.apply li h3 span{
+    color: #474747;
+}
+
+.apply li >span{
+    display: flex;
+    align-items: center;
+    line-height: 0.4rem;
+    float: right;
+    font-size: 0.26rem;
+    letter-spacing: 0.01rem;
+    color: rgba(0,0,0,0.6);
+}
+.apply li >span b{
+    line-height: 0.4rem;
+    margin-left: 0.2rem;
+    color: #36a8fe;
+}
+.apply li h4{
+    padding-left: 0.2rem;
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #fcbc41;
+    position: relative;
+}
+.apply li h4::before{
+    content: "";
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #fcbc41;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(252, 188, 65, 0.43);
+    border-radius: 0.02rem;
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+}
+.apply li h4 span{
+    color: #474747;
+}
+.apply li h4 p{
+    display: inline-block;
+    font-size: 0.22rem;
+    letter-spacing: 0.01rem;
+    color: rgba(0,0,0,0.3);
+    line-height: 0.4rem;
+}
+.apply li > b{
+    display: block;
+    padding-left: 0.2rem;
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #fcbc41;
+}
+.apply li textarea{
+    margin-top: 0.1rem;
+    box-sizing: border-box;
+    padding: 0.2rem;
+    width: 100%;
+    resize: none;
+    background-color: #e7f6ff;
+    border-radius: 0.08rem;
+    opacity: 0.5;
+    border: none;
+    font-size: 0.22rem;
+    line-height: 1.5;
+    letter-spacing: 0.01rem;
+    color: #333333;
+    outline: none;
+}
+.apply li h4.pz{
+    color: #31d094;
+}
+.apply li h4.pz::before{
+    background-color: #36dd7c;
+    box-shadow: 0 0.02rem 0.05rem 0 rgba(54, 221, 124, 0.43);
+}
+.apply li div.pz{
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    width: 1rem;
+    height: 1rem;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#36a8fe, #36a8fe);
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apply li div.pz img{
+    width: 0.49rem;
+    height: 0.42rem;
+}
+
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.submit input[type=button]{
+    margin: auto;
+    font-size: 0.24rem;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+    padding: 0.18rem 1.66rem;
+    background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+    box-shadow: 0 0.04rem 0.2rem 0 rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+}
+/*a{*/
+/*    display: inline-block;*/
+/*}*/
