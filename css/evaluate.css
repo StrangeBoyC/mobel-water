@@ -1,0 +1,100 @@
+@import "common.css";
+header{
+    width: 100%;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    background-color: #fbfeff;
+    box-shadow: 0 0.3rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+}
+header > .head{
+    height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    margin-bottom: 0.4rem;
+}
+header >.head >.iconfont{
+    color: #4ebbfe;
+    font-size: 0.4rem;
+}
+header ul li{
+    width: 1.3rem;
+    height: 0.5rem;
+    display: inline-block;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.5rem;
+    color: #36a8fe;
+}
+header ul li a{
+    color: #36a8fe;
+}
+.list li{
+    /*height: 2.53rem;*/
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid rgba(216,223,227,0.3);
+    display: flex;
+}
+.list .picture{
+    width: 0.85rem;
+    height: 0.85rem;
+    margin-top: 0.2rem;
+    flex: none;
+    border-radius: 50%;
+    border: 0.01rem solid #FFFFFF;
+    overflow: hidden;
+}
+.list-words{
+    margin-left: 0.2rem;
+    flex: 1;
+    margin-top:0.6rem ;
+}
+.list-words h1{
+    height: 0.2rem;
+    overflow: hidden;
+    margin-bottom: 0.23rem;
+}
+.list-words h1 .user{
+    font-size: 0.2rem;
+    color: #cfcfcf;
+    margin-right: 0.44rem;
+    float: left;
+    line-height: 0.2rem;
+}
+.list-words h1 .date{
+    float: right;
+    font-size: 0.2rem;
+    color: #9ed5ff;
+    line-height: 0.2rem;
+}
+.list-words p{
+    font-size: 0.26rem;
+    margin-bottom: 0.23rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.list-words .address{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    display: block;
+    margin-bottom: 0.23rem;
+}
+.list-words img{
+    width: 1.8rem;
+    height: 1.01rem;
+    margin-bottom: 0.73rem;
+}
+.list-words .last{
+
+}
+.list-words > .last >img{
+    display: inline-block;
+    height: 0.3rem;
+    width: 0.4rem;
+    float:right;
+    margin-left: 0.4rem;
+    margin-bottom: 0.1rem;
+}
