@@ -25,12 +25,6 @@ window.addEventListener("load",function () {
     ]
 
 
-/*    let str = localStorage.getItem("orderList");
-    if (!str){
-        saveData();
-        str = localStorage.getItem("orderList");
-    }
-    orderList = JSON.parse(str);*/
     nav.forEach(function (elem,index) {
         elem.onclick=function () {
             nav[prev].classList.remove("hot");
@@ -44,37 +38,6 @@ window.addEventListener("load",function () {
         }
     });
     nav[0].onclick();
-
-/*    list.onclick = function (e) {
-        let target = e.target;
-        let parent = target.parentNode;
-        let id = parent.id;
-        if(target.nodeName ==="SPAN"){
-            parent.classList.toggle("list-hot")
-            let arr = orderList.filter(eles=>eles.id==id)[0];
-            if(!arr.status) {
-                arr.status = true;
-            }
-            else if(arr.status){
-                arr.status =false;
-            }
-            saveData();
-            render(filterDate(type));
-        }
-        else if(target.nodeName === "DEL"){
-            let index=orderList.findIndex(ele=>ele.id==id);
-            orderList.splice(index,1);
-            saveData();
-            render(filterDate(type));
-        }
-    }*/
-
-/*
-
-    function saveData() {
-        localStorage.setItem("orderList",JSON.stringify(orderList));
-    }
-*/
 
 
     function filterDate(type) {
@@ -148,7 +111,7 @@ window.addEventListener("load",function () {
             }
         })
 
-        if (html == '') {
+        if (html === '') {
             list.innerHTML = "暂无内容"
         } else {
             list.innerHTML = html;
